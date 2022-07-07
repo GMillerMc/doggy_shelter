@@ -1,0 +1,12 @@
+{% extends "adoption/layout.html" %}
+
+{% block content %}
+
+<h1>{{ dog.name }}</h1>
+<p>Breed: {{ dog.breed }}</p>
+
+<p>{{ dog.description }}</p>
+
+<div>I have been adopted by {{dog.owner}}</div>
+
+{% endblock %}
